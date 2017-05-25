@@ -1,0 +1,28 @@
+#wrapper{
+	width: 700px;
+	height: 730px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px;
+	background-color: #a6e1ec;
+}
+.center{
+	text-align: center;
+}
+
+img{
+	width: 200px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.text{
+	color: #2EA620;
+}
+li{
+	width:600px;
+	padding:10px;
+	margin-bottom:5px;
+	font-size:14px;
+	Border: 1px solid #000000;
+	list-style-type: none;
+}
