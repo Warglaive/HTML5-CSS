@@ -1,0 +1,21 @@
+#wrapper{
+	width: 400px;
+	background-color: #dddddd;
+	Border: 1px solid #000000;
+	margin-left: 20px;
+	padding: 10px;
+}
+
+.size{
+	font-size:18px;
+}
+.center{
+	text-align: center;
+}
+
+q::before{
+	content: open-quote;
+}
+q::after{
+	content: close-quote;
+}
