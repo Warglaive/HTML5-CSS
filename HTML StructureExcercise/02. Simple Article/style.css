@@ -1,0 +1,31 @@
+body{
+	font-family: "Lato", sans-serif;
+}
+img{
+	float: left;
+	width: 200px;
+	border-radius: 50%;
+	border-style: dotted;
+	border-width: 5px;
+	margin: 15px;
+	Border: 5px dotted #8b603d;
+}
+article{
+	width: 550px;
+	border-radius: 15px;
+	text-align: center;
+	padding: 25px;
+	background-color: #fafafa;
+	box-shadow: 10px 11px 35px 14px rgba(0,0,0,0.54);
+	text-align: justify;
+}
+h1{
+	margin-bottom: 0;
+	padding: 10px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+article p{
+	text-align: justify;
+	font-size: 14px;
+}
