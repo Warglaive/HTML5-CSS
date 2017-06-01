@@ -1,0 +1,32 @@
+main{
+	max-width: 1060px;
+	margin: 50px 200px;
+	padding: 0 10px;
+}
+h2{
+	color: #234465;
+	margin: 10px;
+}
+main p{
+	font-size: 16px;
+	color:#333333;
+	margin-bottom: 5px;
+	letter-spacing: 0;
+	width: 800px;
+}
+img{
+	float: left;
+	width: 180px;
+	height: 100px;
+	margin: 10px 50px 0 0;
+}
+footer{
+	background-color: #000000;
+}
+footer p{
+	color: #fff;
+	font-size: 14px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0px;
+}
