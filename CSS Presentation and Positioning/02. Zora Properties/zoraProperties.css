@@ -44,3 +44,37 @@ nav ul li , a{
 	margin-right: 15px;
 	margin-top: 20px;
 }
+.firstThree{
+	display: inline-block;
+	margin: 10px 10px;
+}
+.firstTwoBox{
+	margin-top: -299px;
+    margin-bottom: 100px;
+    margin-right: 189px;
+    margin-left: 316px;
+}
+.firstThreeBox{
+	margin-top: -383px;
+    margin-bottom: 100px;
+    margin-right: 189px;
+    margin-left: 633px;
+}
+.secondOneBox{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 350px;
+}
+.secondTwoBox{
+	margin-top: -384px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 668px;
+}
+.secondThreeBox{
+    margin-top: -383px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 985px;
+}
