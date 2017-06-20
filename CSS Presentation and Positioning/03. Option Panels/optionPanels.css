@@ -1,0 +1,134 @@
+*{
+	font: 14px Tahoma, Arial, sans-serif;
+	color: #191923;
+	background-color: #CACACA;
+}
+li, a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 5px;
+}
+ul, li, a{
+	background-color: #fff;
+	text-transform: uppercase;
+}
+.navCenter{
+    margin: auto;
+    width: 1000px;
+	height: 100px;
+	background-color: #fff;
+    padding: 10px;
+	margin-top: 50px;
+}
+a:hover{
+	color:#BF1363;
+}
+.capitalizeH{
+	text-transform: capitalize;
+}
+.firstPic{
+	width: 277px;
+	height: 168px;
+	display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 282px;
+}
+.smallItemsFirstParagraph{
+	width: 244px;
+	height: 90px;
+	padding: 10px;
+	background-color: #fff;
+    margin-top: -95px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 282px;
+}
+.firstPicParagraphs{
+	width: 268px;
+	height: 135px;
+	padding: 5px;
+	background-color: #fff;
+    margin-top: -95px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 282px;
+}
+p:nth-child(1){
+	text-transform: uppercase;
+	text-align: justify;
+    background: #fff;
+}
+p:nth-child(2){
+    background: #fff;
+}
+.secondPic{
+	width: 277px;
+	height: 168px;
+	display: block;
+    margin-top: -418px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 570px;
+}
+.secondPicParagraph{
+	width: 268px;
+	height: 135px;
+	padding: 5px;
+	background-color: #fff;
+    margin-top: -95px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 570px;
+}
+.thirdPic{
+	width: 277px;
+	height: 168px;
+	display: block;
+	
+    margin-top: -418px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 858px;
+}
+.thirdPicParagraph{
+	
+	width: 268px;
+	height: 135px;
+	
+	padding: 5px;
+	background-color: #fff;
+    margin-top: -95px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 858px;
+}
+.fourthPic{
+	
+	width: 277px;
+	height: 168px;
+	display: block;
+	
+    margin-top: -418px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 1146px;
+}
+.fourthPicParagraph{
+	width: 268px;
+	height: 135px;
+	padding: 5px;
+	background-color: #fff;
+    margin-top: -95px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 1146px;
+}
+footer{
+	margin-top: 501px;
+	height: 93px;
+	width: 1598px;
+	background-color: #fff;
+}
