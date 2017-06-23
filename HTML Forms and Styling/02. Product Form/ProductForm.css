@@ -5,27 +5,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  font: 14px 'Lato', sans-serif;
-}
-main{
-  margin: 0 auto;
-}
-img{
-  width: 300px;
-  max-width: 100%;
-  background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-.chooseSize{
-  width: 660px;
-  display: inline-block;
-  vertical-align: top;
-}
-label{
-  display: inline-block;
-}
-input{
-  display: inline-block;
-}
