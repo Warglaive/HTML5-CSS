@@ -19,20 +19,20 @@ main{
 	margin: 50px auto 0;
 	padding: 0px 60px 184px 60px;
 	background:#d5c395;
+	position: relative;
 }
-main::before{
-	position: absolute;
-	top: -30px;
-	left: 259px;
-	background: url() no-repeat 0 0;
-	display: block;
-	height: 35px;
-	width: 68px;
-	content: "";
+main:before{
+	  position: absolute;
+		top: -30px;
+	  left: 259px;
+		background: url(images/triangle.png) no-repeat 0 0;
+	  height: 35px;
+	  width: 68px;
+	  content:'';
 }
 footer{
 	font-size: 1em;
-	color:: #EFE1C4;
+	color: #EFE1C4;
 	text-align: center;
 }
 div.image-container{
@@ -106,16 +106,6 @@ padding: 10px;
 width: 100%;
 max-width: 500px;
 font-size: 1.5em;
-color: #927057;
+color: #DAC998;
 border-radius: 5px;
-}
-form::before {
-  position:
-    absolute;
-  top: -30px;
-  left: 259px;
-  height: 35px;
-  width: 68px;
-  background: url(img/3.png) no-repeat 0 0;
-  content: '';
 }
