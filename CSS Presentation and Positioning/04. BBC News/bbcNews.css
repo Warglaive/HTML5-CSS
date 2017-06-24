@@ -1,0 +1,45 @@
+*{
+	font: Colibri Light, Verdana, sans-serif;
+}
+body{
+	margin: 0 auto;
+	width: 890px;
+	border: solid;
+}
+.businessImg{
+	width: 202px;
+	height: 111px;
+}
+.businessParagraph{
+	width: 202px;
+	height: 263px;
+}
+.educationImg{
+    margin-top: -120px;
+    margin-bottom: 60px;
+    margin-right: 150px;
+    margin-left: 212px;
+	
+	width: 202px;
+	height: 111px;
+}
+.educationH{
+    margin-top: 38px;
+    margin-bottom: 152px;
+    margin-right: 150px;
+    margin-left: 212px;
+}
+.educationParagraph{
+    width: 202px;
+    height: 263px;
+	
+    margin-top: -42px;
+	margin-right: 150px;
+    margin-left: 212px;
+}
+.secondContainer{
+	margin-top: -492px;
+    margin-bottom: 366px;
+    margin-right: 150px;
+    margin-left: 5px;
+	}
