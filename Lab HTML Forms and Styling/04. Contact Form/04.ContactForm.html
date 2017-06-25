@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="ContactForm.css">
+  </head>
+  <body>
+    <div class="border">
+      <header>
+        <h1>Contact Form</h1>
+        <h3>Please fill all the texts in the fields.</h3>
+      </header>
+      <main>
+        <form class="NameInfo" action="#" method="get">
+            <label for="takeName">Your Name :</label>
+             <input type="name" name="takeName" id="takeName" value="Your Full Name">
+        </form>
+
+        <form class="EmailInfo" action="#" method="get">
+        <label for="takeEmail">Your Email :</label>
+        <input type="email" name="takeEmail" id="takeEmail" value="Valid Email Address">
+        </form>
+
+        <form class="messageInfo" action="#" method="get">
+        <label for="message">Message :</label>
+        <input type="email" name="takeEmail" id="message" value="Your Message to Us">
+        </form>
+
+        <label for="subject">Subject :</label>
+        <select class="subject" name="subjectSelect">
+            <option value="">Job Inquiry</option>
+            <option value="Job Inquiry">General Question</option>
+        </select>
+        <form class="submitButton" action="#" method="post">
+          <button type="submit" name="send">Send</button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
