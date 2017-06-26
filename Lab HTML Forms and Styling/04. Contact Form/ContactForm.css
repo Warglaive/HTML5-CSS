@@ -1,17 +1,16 @@
 *{
 font-family: Georgia, "Times New Roman", sans-serif;
+color: #858687;
 }
 body{
   margin: 0 auto;
-  text-align: center;
 }
 .border{
   background-color: #F7F7F7;
-  text-align: center;
   border: solid #E7E7E7;
   margin: 100px 80px;
   padding-top: 50px;
-  padding-bottom: 460px;
+  padding-bottom: 530px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -24,6 +23,34 @@ position: absolute;
 margin-top: 50px;
 }
 main{
-
-  background-color: #F7F7F7;
+  position: absolute;
+  margin-top: 100px;
+}
+input{
+	outline: none;
+	border-color: #E0E0E0;
+	padding: 10px 10px 10px 0px;
+	width: 500px;
+	font-size: 1.1em;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+input[type="message"]{
+  height: 100px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.subject{
+width: 84%;
+height: 40px;
+margin-left: 27px;
+}
+button{
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 95px;
+  padding: 10px;
+  color: #fff;
+  background-color: #E27575;
 }
