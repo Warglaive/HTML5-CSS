@@ -1,14 +1,14 @@
-main{
-    margin: 55px auto;
-    height: 800px;
-    width: 800px;
-    border:2px solid black;
+body{
+  font-size: 30px;
 }
-
-h1{
-    width:270px;
-    height: 30px;
-    margin-top:-20px;
-    margin-left:5px;
-    background: white;
+.select{
+  margin: 0px;
+  width: 577px;
+}
+fieldset{
+  width: 300px;
+  color: #2D2D2D;
+}
+input[type="enterName"]{
+  width: 577px;
 }

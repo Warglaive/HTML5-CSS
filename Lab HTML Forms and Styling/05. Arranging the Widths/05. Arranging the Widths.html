@@ -6,12 +6,24 @@
     <link rel="stylesheet" type="text/css" href="ArrangingtheWidths.css">
   </head>
   <body>
-    <main>
-      <h1>Rent Audi Vehicles</h1>
-        <label for="name">Named</label>
-      <form class="" action="index.html" method="get">
-        <input type="name" name="enterName" value="Enter your name">
+    <fieldset>
+      <legend>Rent Audi Vehicles</legend>
+      <form class="named" action="index.html" method="get">
+      <label for="name">Named</label><br>
+      <input type="enterName" name="name" id="name" value="Enter your name">
+      <br>
+      <label for="select">Select</label>
+      <br>
+      <select class="select" name="select">
+        <option value="audi">Audi 80</option>
+      </select>
+      <br>
+      <label for="secondSelect">Select</label>
+      <br>
+      <label for="msg">Message: </label>
+      <br>
+        <textarea name="name" rows="8" cols="80"></textarea>
       </form>
-        </main>
+    </fieldset>
   </body>
 </html>
