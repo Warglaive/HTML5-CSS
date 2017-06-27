@@ -6,28 +6,33 @@
     <title>Product Form</title>
   </head>
   <body>
-    <main>
-            <img src="images/nike-shoe.png" alt="/">
-      <div class="chooseSize">
-      <h1>Nike Roche Run</h1>
-      <h3>120$</h3>
-      <p>Choose Size</p>
-      <select class="select" name="selectSize">
-      <option value="xs">XS</option>
-      <option value="s">S</option>
-      <option value="m">M</option>
-      <option value="l">L</option>
-    </select>
+    <div id="wrapper">
+      <main>
+        <div class="product-image">
+            <img src="images/nike-shoe.png" alt="Product Image"/>
+        </div>
+        <div class="order-information">
+            <h1>
+            Nike Roche Run
+          </h1>
+          <h4>120&#36;</h4>
+          <form action="#">
+              <label for="size">Choose Size</label>
+              <select name="size" id="size">
+                <option value="XS"XS></option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <label for="cardName">Name on card</label>
+              <input type="text" name="card" id="cardName" value="enter card number"/>
+              <label for="cardNum">Card Number</label>
+              <input type="text" name="cardNumber"id="cardNum" value="Enter card number"/>
+              <input type="submit" name="submit" value="continue">
+          </form>
+        </div>
+      </main>
     </div>
-    <div class="customerInfo">
-      <form class="CardInfo" action="index.html" method="get">
-      <label for="nameOnCard">Name on card</label>
-      <input type="cardName" name="card" id="nameOnCard" value="Enter your name">
-      <label for="cardNum">Card Number</label>
-      <input type="cardNum" name="num" id="cardNum" value="Enter card number">
-      <input type="submit" name="submit" value="CONTINUE">
-      </form>
-    </div>
-    </main>
-  </body>
+  </div>
+</body>
 </html>
