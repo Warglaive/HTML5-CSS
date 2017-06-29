@@ -1,0 +1,49 @@
+body{
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+}
+body > *{
+  padding: 10px;
+  flex: 1 100%;
+}
+header{
+  background: tomato;
+}
+footer{
+  background: lightgreen;
+}
+main{
+  text-align: left;
+  background: deepskyblue;
+}
+.leftAside{
+  background: gold;
+}
+.rightAside{
+  background: hotPink;
+}
+@media all and (min-width: 800px) {
+main article{
+  flex: 3 0;
+  leftAside{
+      order: 1;
+  }
+  main article{
+    order: 2;
+  }
+  rightAside{
+    order: 3;
+  }
+  footer{
+    order: 4;
+  }
+}
+}
+@media all and (min-width: 600px){
+  aside{
+    flex: 1 0;
+  }
+}
