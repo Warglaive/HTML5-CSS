@@ -5,6 +5,9 @@ body{
   text-align: center;
   padding: 30px;
 }
+main{
+  background: deepskyblue;
+}
 body > *{
   padding: 10px;
   flex: 1 100%;
@@ -21,27 +24,29 @@ main{
 }
 .leftAside{
   background: gold;
+
 }
 .rightAside{
   background: hotPink;
 }
 @media all and (min-width: 800px) {
-main article{
+main {
   flex: 3 0;
-  leftAside{
-      order: 1;
-  }
-  main article{
+}
+  .leftAside{
+    order: 1;
+}
+  main {
     order: 2;
   }
-  rightAside{
+  .rightAside{
     order: 3;
   }
   footer{
     order: 4;
   }
 }
-}
+
 @media all and (min-width: 600px){
   aside{
     flex: 1 0;
