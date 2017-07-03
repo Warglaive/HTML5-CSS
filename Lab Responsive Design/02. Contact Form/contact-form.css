@@ -110,18 +110,35 @@ i {
     border-right: none;
 }
 
-@media screen and (max-width: 800px) {
-  form { max-width: calc(100% - 40px); }
+
+
+
+@media all and (max-width: 800px) {
+  form{
+    max-width: calc(100% - 40px);
+  }
 }
 
-@media screen and (max-width: 660px) {
-  .right-contact input {
+@media all and (max-width: 660px) {
+  .right-contact input{
     width: calc(100% - 70px);
   }
-  textarea {
-    width: calc(100% - 100px);
+  textarea{
+    width: calc(100%-100px);
   }
-  .button-contact {
-    width: calc(100% - 35px);
+  button-contact{
+    width: calc(100%-35px);
+  }
+  body{
+    font-size: 1em;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+  }
+  .right-contact{
+    padding: 0;
+    float :none;
   }
 }
