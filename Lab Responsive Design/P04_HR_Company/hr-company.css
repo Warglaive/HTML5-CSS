@@ -112,10 +112,22 @@ a:hover#menu-icon {
     justify-content: space-between;
 }
 
+@media all and (max-width: 880px) {
+  ul{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  #menu-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #4C8FEC url(images/menu-icon.png) center;
+  }
+  article img{
 
-
-
-
-/*TODO: @media all and (max-width: 880px) {*/
-
-/*}*/
+  }
+  article{
+    
+  }
+}
