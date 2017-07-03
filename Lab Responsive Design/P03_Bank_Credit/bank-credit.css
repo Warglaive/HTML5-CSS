@@ -29,9 +29,6 @@ table th {
     font-size: 14px;
     letter-spacing: 1px;
 }
-
-
-
 @media screen and (max-width: 600px) {
   table{
     display: flex;
@@ -59,8 +56,6 @@ table th {
     margin-bottom: 10px;
     background: #FEF5E6;
   }
-
-
   tbody{
     width: 100%;
   }
