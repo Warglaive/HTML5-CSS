@@ -30,33 +30,38 @@ table th {
     letter-spacing: 1px;
 }
 
+
+
 @media screen and (max-width: 600px) {
+  table{
+    display: flex;
+  }
   thead{
-    display: none;
+    position: absolute;
+    top: -99999px;
+    left: -9999px;
   }
-  table, tbody{
-    border: 0;
+  table td::before{
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
   }
-  tbody tr{
+  table td{
+    text-align: right;
     display: block;
-    margin-bottom: 5px;
+  }
+  table td:not(:last-child) {
+    border-bottom: solid #CDCCC8;
+   }
+  table tr{
+    display: block;
+    margin-bottom: 10px;
     background: #FEF5E6;
   }
-  tbody td{
-    display: block;
-    text-align: right;
-    margin-right: 20px;
-    border-bottom: 2px solid #C7C4C0;
-    position: relative;
+
+
+  tbody{
+    width: 100%;
   }
-tbody td::before{
-  content: attr(data-label);
-  position: absolute;
-  left: 10px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-tbody td:last-of-type{
-  border: 0;
-}
 }
