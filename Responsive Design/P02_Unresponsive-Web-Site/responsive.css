@@ -12,3 +12,25 @@
     margin-top: -20px;
   }
 }
+@media all and (min-width: 640px) and (max-width: 780px) {
+  body #wrapper{
+    width: 100%;
+  }
+  body #wrapper > header h1 a span{
+    margin-left: 0;
+  }
+  body #wrapper > header nav{
+  }
+  body #wrapper > header nav ul{
+    display: inline-block;
+  }
+  body #wrapper > header nav ul li{
+    width: 135px;
+  }
+  body #wrapper > header h1{
+    font-size: 35px;
+  }
+  body #wrapper > aside{
+    display: block;
+  }
+}
