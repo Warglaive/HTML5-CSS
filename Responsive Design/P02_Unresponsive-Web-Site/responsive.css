@@ -64,7 +64,6 @@
   }
   body #wrapper > aside{
     width: 98%;
-=======
     width: 100%;
     order: 5;
     display: flex;
@@ -72,7 +71,6 @@
     flex-flow: row;
   }
 }
-=======
 @media all and (max-width: 480px) {
   body #wrapper{
     width: 100%;
