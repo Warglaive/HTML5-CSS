@@ -124,10 +124,18 @@ a:hover#menu-icon {
     height: 40px;
     background: #4C8FEC url(images/menu-icon.png) center;
   }
-  article img{
-
+  .business{
+    display: block;
+    text-align: center;
   }
-  article{
-    
+  article p{
+    max-width: 100%;
+  }
+  .button{
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe-now{
+    margin-top: 20px;
   }
 }
