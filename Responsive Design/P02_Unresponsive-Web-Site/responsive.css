@@ -1,1 +1,14 @@
-/*TODO*/
+@media all and (min-width: 780px) and (max-width: 960px) {
+  body #wrapper{
+    width: calc(100% - 55px);
+  }
+  body #wrapper aside > div{
+    margin-bottom: 230px;
+  }
+  .news{
+    margin-top: -208px;
+  }
+  body #wrapper > footer{
+    margin-top: -20px;
+  }
+}
