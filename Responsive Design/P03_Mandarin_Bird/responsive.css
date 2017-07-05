@@ -1,1 +1,89 @@
-/*TODO*/
+@media all and (max-width: 1200px) {
+  #wrapper{
+        width: 100%;
+    }
+  main, header{
+    width: 95%;
+  }
+  main section{
+    width: calc(100% - 50px);
+    float: none;
+    margin-left: 25px;
+}
+main aside{
+    float: none;
+    width: calc(100% - 30px);
+  }
+  header nav ul li{
+    width: 20%;
+  }
+  footer{
+    text-align: center;
+  }
+  header > p{
+    color: #DC702F;
+  }
+}
+
+@media all and (max-width: 730px) {
+  header{
+    border: 0;
+    width: 69%;
+    background-size: 487px 138px;
+  }
+  header > nav{
+    height: 100%;
+    margin-top: -7px;
+  }
+  header nav > ul{
+    display: flex;
+    flex-direction: column;
+  }
+  header nav > ul li{
+    text-align: center;
+    width: 100%;
+  }
+  header {
+    position: relative;
+  }
+  header > p{
+    margin-top: -4px;
+  }
+  header h1{
+    padding-top: 5px;
+  }
+  main{
+    width: 69%;
+  }
+  main section{
+    margin: 0 auto;
+    width: 90%;
+  }
+  main > section > div > article{
+    padding: 0;
+  }
+  main > section > div > article > p{
+    width: 95%;
+  }
+  main section div{
+    text-align: center;
+    height: auto;
+  }
+  main section > div > div{
+    float: none;
+  }
+  main > section > div {
+    background-color: #BACD8B;
+    width: 100%;
+  }
+  main > section > div > article{
+    margin: 0 auto;
+    margin-top: -13px;
+    background-color: white;
+  }
+  main > aside {
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+}
