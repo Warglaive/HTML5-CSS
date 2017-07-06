@@ -80,7 +80,7 @@ h1 {
     margin-left: -200px;
 }
 .effect-3 p{
-  transition: margin-left 10s 1s;
+  transition: margin-left 0.7s 0.5s;
 }
 .effect-3:hover p{
   margin-left: 0;
