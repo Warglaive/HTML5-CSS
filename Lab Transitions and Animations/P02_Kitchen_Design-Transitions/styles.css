@@ -61,9 +61,7 @@ h1 {
     top: 0;
     left: 0;
     cursor: pointer;
-}
-.effect-2 img{
-  transition: margin-left 1.2s;
+    transition: margin-left 1.2s;
 }
 .effect-2:hover img{
   margin-left: 200px;
@@ -78,9 +76,7 @@ h1 {
     top: 0;
     left: 0;
     margin-left: -200px;
-}
-.effect-3 p{
-  transition: margin-left 0.7s 0.5s;
+    transition: margin-left 0.7s 0.5s;
 }
 .effect-3:hover p{
   margin-left: 0;
