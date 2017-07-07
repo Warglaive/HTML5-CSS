@@ -1,1 +1,89 @@
-/*TODO*/
+@media all and (max-width: 640px) {
+  .wrap{
+    width: 100%;
+  }
+  h1{
+    width: 126px;
+  }
+  #header-top-area{
+    border-bottom: solid #B5B9BA;
+    border-bottom-width: 1px;
+  }
+  #header-middle-area a{
+    margin-top: 2px;
+  }
+  #header-top-area h1,{
+    margin: 0 auto;
+  }
+   #header-top-area h2{
+     margin-left: -9999px;
+   }
+#product-menu{
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+  }
+
+#product-menu ul .product-type a:hover + .submenu{
+  display: block;
+  background-color: #C4C8C9;
+  cursor: pointer;
+}
+#product-menu:hover{
+    cursor: pointer;
+}
+#product-menu ul li:hover{
+  background-color: #C4C8C9;
+}
+  ol, ul:hover{
+    cursor: pointer;
+  }
+  #header-bottom-area{
+    display: none;
+  }
+  main{
+    text-align: center;
+  }
+  footer{
+    text-align: center;
+  }
+  .share{
+    float: none;
+    color: #fff;
+  }
+  .share strong{
+    display: inline;
+    vertical-align: bottom;
+  }
+  .tag{
+    color: #fff;
+  }
+  .email-newsletter{
+    float: none;
+  }
+  .box{
+    margin: 0;
+  }
+footer.box{
+    margin: 0;
+    background-color: #26292d;
+  }
+.email-newsletter{
+    background-color: #26292d;
+  }
+  span{
+  background-color: #26292d;
+}
+.copyright{
+  background-color: #26292d;
+  float: none;
+  text-align: center;
+}
+footer .wrap{
+  background-color: #26292d;
+  margin-bottom: 0px;
+}
+html{
+  background-color: #26292d;
+}
+}
