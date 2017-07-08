@@ -1,1 +1,6 @@
-/*TODO*/
+@media all and (max-width: 980px) {
+  header #logo{
+    position: relative;
+    margin: 0 auto;
+  }
+}
