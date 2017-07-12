@@ -1,0 +1,11 @@
+.leftAside{
+  background-color: blue;
+  display: block;
+  width: 100%;
+}
+.main{
+  background-color: red;
+}
+.rightAside{
+  background-color: green;
+}
