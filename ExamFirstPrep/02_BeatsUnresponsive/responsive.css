@@ -1,0 +1,45 @@
+@media all and (max-width: 640px) {
+  nav{
+    text-align: center;
+  }
+  .nav-primary{
+    display: inline-block;
+  }
+  li{
+    padding: 20px;
+  }
+  .solo{
+    background-size: 500px;
+    text-align: center;
+  }
+  .second-row{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+
+  }
+  .mixr-left{
+    text-align: center;
+    width: 79%;
+    background-size: cover;
+  }
+  .sr-title, .sr-description, .sr-cta{
+    margin: 0 auto;
+  }
+  .urbeats-right{
+    margin: 0 auto;
+    width: 79%;
+  }
+  .sr-title, .sr-description, .sr-cta{
+    padding-bottom: 20px;
+  }
+  .studio{
+    text-align: center;
+  }
+  .grid-gallery{
+    display: table;
+  }
+  .product-img{
+    width: 50%;
+  }
+}
