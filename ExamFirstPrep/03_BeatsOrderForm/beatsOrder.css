@@ -1,0 +1,63 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,900";
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+main{
+  display: flex;
+  background: rgba(21,54,64,1);
+  background: -moz-linear-gradient(left, rgba(21,54,64,1) 0%, rgba(65,83,91,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(21,54,64,1)), color-stop(100%, rgba(65,83,91,1)));
+  background: -webkit-linear-gradient(left, rgba(21,54,64,1) 0%, rgba(65,83,91,1) 100%);
+  background: -o-linear-gradient(left, rgba(21,54,64,1) 0%, rgba(65,83,91,1) 100%);
+  background: -ms-linear-gradient(left, rgba(21,54,64,1) 0%, rgba(65,83,91,1) 100%);
+  background: linear-gradient(to right, rgba(21,54,64,1) 0%, rgba(65,83,91,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#153640', endColorstr='#41535b', GradientType=1 );
+}
+img{
+  max-width: 100%;
+}
+.beatsImg{
+  float: left;
+  margin-top: -4px;
+}
+.imgAndContent{
+  background-color: #FAFAFA;
+  width: 60%;
+  box-sizing: border-box;
+  margin: 50px auto;
+  border-radius: 10px;
+  height: 627px;
+}
+.heading{
+  text-align: right;
+}
+h1{
+  font-size: 30px;
+  padding-top: 100px;
+  padding-right: 200px;
+  color: #9A9A9A;
+  text-transform: uppercase;
+}
+span{
+  color: #777777;
+}
+.info{
+  margin-left: 350px;
+  margin-top: 50px;
+}
+input[type="name"]{
+  text-align: center;
+  color: #B5B5B5;
+  padding-bottom: 5px;
+  border: none;
+  border-bottom: solid #7F7E7C;
+  background-color: #FAFAFA;
+}
+.fa-user{
+  font-size: 20px;
+  color: #575757;
+  position: absolute;
+}
