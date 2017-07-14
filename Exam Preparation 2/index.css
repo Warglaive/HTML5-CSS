@@ -57,12 +57,12 @@ button{
 .portfolioPage{
   position: relative;
   background-color: #EEEEEE;
-  height: 1000px;
+  height: 1300px;
 }
 .portHeader{
   text-align: center;
   position: absolute;
-  top: 10%;
+  top: 6%;
   left: 40%;
 }
 .portHeader h1{
@@ -121,5 +121,45 @@ button{
 }
 .secondLineContainer{
   position: relative;
-  top: 70%;
+  top: 63%;
+}
+/*WelcomePageEnd*/
+.aboutPage{
+  height: 1000px;
+  background-color: #FFFAEB;
+}
+.aboutHead{
+  height: 800px;
+  text-align: center;
+  position: relative;
+  top: 10%;
+}
+.aboutHead h1{
+  text-transform: uppercase;
+  color: #333;
+  font-size: 30px;
+}
+.aboutHead h5{
+  font-size: 10px;
+  color: #8D7F81;
+}
+.aboutFirstImg{
+  position: absolute;
+  top: 265%;
+  left: 46%;
+}
+.aboutFirstImg img{
+  width: 130px;
+  border-radius: 50%;
+  border: solid 3px #F1F1F1;
+}
+.aboutContent p{
+  position: relative;
+  text-align: right;
+  right: 60%;
+
+}
+.firstPicText p:nth-last-of-type(2), .firstPicText p:nth-last-of-type(3){
+  color: #333;
+  font-weight: bold;
 }
