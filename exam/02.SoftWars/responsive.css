@@ -1,0 +1,57 @@
+@media all and (max-width: 1024px) {
+  header{
+    min-height: 570px;
+    max-width: 100%;
+  }
+  img{
+    max-width: 100%;
+  }
+  .blog{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .container{
+    display: inline;
+  }
+  .blog article{
+    display: inline-block;
+    width: 450px;
+    text-align: justify;
+  }
+  .blog article:nth-of-type(2){
+  float: right;
+  }
+  .contact{
+    text-align: center;
+  }
+  .info{
+    width: 100%;
+    float: none;
+    line-height: normal;
+  }
+  .contact-form input, .contact-form textarea{
+    width: 100%;
+  }
+  .contact-form textarea{
+    height: 100px;
+  }
+}
+@media all and (max-width: 480px) {
+  header{
+    min-height: 420px;
+  }
+  main{
+    margin: 0 auto;
+  }
+.blog article{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .blog img{
+    max-width: 300px;
+  }
+  h3{
+    font-size: 1em;
+  }
+}

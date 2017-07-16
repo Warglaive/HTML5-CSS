@@ -1,0 +1,87 @@
+@import "https://fonts.googleapis.com/css?family=Lato";
+*{
+  font-family: 'Lato';
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #264658;
+}
+.firstBlock{
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 350px;
+  height: 600px;
+  background-color: #fff;
+}
+h1{
+  color: #497BD1;
+    margin-top: 100px;
+}
+h5{
+  margin-top: 10px;
+  color: #74929C;
+  text-transform:uppercase;
+  letter-spacing: 10px;
+}
+.firstBlock h1{
+  margin-top: 150px;
+}
+img{
+  margin-top: 30px;
+}
+.firstBlock button{
+  margin-top: 100px;
+  border: solid 3px #1883D7;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #F5FAFC;
+  color: #8EB5E9;
+}
+
+/*Block 1*/
+.secondBlock{
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  width: 350px;
+  height: 600px;
+  background-color: #fff;
+}
+.secondBlock button{
+  margin-top: 100px;
+  border: solid 3px #1883D7;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #F5FAFC;
+  color: #8EB5E9;
+}
+/*Block 2*/
+.third{
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  width: 350px;
+  height: 600px;
+  background-color: #fff;
+}
+.third button{
+  margin-top: 100px;
+  border: solid 3px #1883D7;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #F5FAFC;
+  color: #8EB5E9;
+}
+button:hover{
+  background-color: #4C8ADD;
+  color: #fff;
+  font-weight: bold;
+}
