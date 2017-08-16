@@ -1,8 +1,14 @@
 @import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+  font-family: 'Lato';
+}
 body{
   background-color: #4C8ADD;
-  font-family: 'Lato';
+  background-image: url('images/R2D2.png');
+  background-repeat: no-repeat;
+  background-position: 0px 630px;
+
 }
 header{
   margin: 0 auto;
@@ -21,10 +27,15 @@ header h1:first-of-type{
 span{
   text-transform: lowercase;
 }
-.userInfo{
+.firstBox{
+  background-color: #5496EF;
   position: absolute;
-  top: 40%;
-  left: 25%;
+  top: 30%;
+  left: 30%;
+  border-right: solid 1px #fff;
+  border-bottom: solid 1px #fff;
+  width: 400px;
+  height: 100px;
 }
 .checkboxFour {
 	width: 40px;
@@ -63,6 +74,10 @@ span{
 input[type="checkbox" i] {
   display: none;
 }
+.payImg{
+  position: relative;
+  margin-left: 236px;
+}
 .payP{
   position: absolute;
   width: 60px;
@@ -73,17 +88,211 @@ input[type="checkbox" i] {
   text-align: justify;
   left: 60px;
 }
-.firstBox{
+
+/*First Check Box Done*/
+.secondBox{
   background-color: #5496EF;
   position: absolute;
   top: 30%;
-  left: 20%;
-  border-right: solid 1px #fff;
+  left: 977px;
   border-bottom: solid 1px #fff;
   width: 400px;
   height: 100px;
 }
-.payImg{
+.card {
+	width: 40px;
+	height: 40px;
+	background: #325D97;
+	margin: 20px 90px;
+
+	border-radius: 100%;
+	position: absolute;
+  top: 7%;
+  left: -15%;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+.secondBox input[type="checkbox"]:checked + label{
+	background: #fff;
+  left: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+
+}
+.card label {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 1;
+	background: #5496EF;
+	box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+input[type="checkbox" i] {
+  display: none;
+}
+.cardP{
+  position: absolute;
+  width: 158px;
+  bottom: -7%;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: justify;
+  left: 60px;
+}
+
+.cardImg{
   position: relative;
   margin-left: 236px;
+}
+/*Second Check Box Done*/
+.NumberBox{
+  background-color: #5496EF;
+  position: absolute;
+  top: 41%;
+  left: 30%;
+  border-bottom: solid 1px #fff;
+  width: 800px;
+  height: 100px;
+}
+.NumDigits label{
+  position: relative;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 20px;
+  color: #fff;
+  font-weight: lighter;
+  float: left;
+}
+.NumDigits input{
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 33px;
+  margin-left: 10px;
+  background-color: #5496EF
+}
+/*NumberBox Done*/
+.expiry{
+  background-color: #5496EF;
+  position: absolute;
+  top: 52%;
+  left: 30%;
+  width: 400px;
+  height: 100px;
+}
+.date label{
+  position: relative;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 20px;
+  color: #fff;
+  font-weight: lighter;
+  float: left;
+}
+.date input{
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 33px;
+  margin-left: 10px;
+  background-color: #5496EF
+}
+/*expiry Done*/
+.csv{
+  background-color: #5496EF;
+  position: absolute;
+  top: 52%;
+  left: 977px;
+  border-left: solid 1px #fff;
+  width: 400px;
+  height: 100px;
+}
+.csvDig label{
+  position: relative;
+  width: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 20px;
+  color: #fff;
+  font-weight: lighter;
+  float: left;
+}
+.csvDig input{
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 29px;
+  margin-left: 10px;
+  background-color: #5496EF
+}
+.exclamationMark{
+border-radius: 100%;
+color: #5496EF;
+background-color: #fff;
+width: 30px;
+text-align: center;
+float: right;
+position: relative;
+margin-top: 30px;
+margin-right: 50px;
+}
+.fa-exclamation{
+  font-size: 30px;
+}
+/*CSV done*/
+.Finish{
+  background-color: #3A77C8;
+  position: absolute;
+  top: 65%;
+  text-align: center;
+  left: 30%;
+  width: 800px;
+  height: 100px;
+}
+button{
+  margin-top: 20px;
+  border: none;
+    background-color: #3A77C8;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 35px;
+    cursor: pointer;
+}
+.fa-lock{
+  font-size: 30px;
+  color: #fff;
+}
+.play input{
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 33px;
+  margin-left: 10px;
+  background-color: #5496EF
+}
+/*pay DOne*/
+.price{
+  float: right;
+  position: absolute;
+  top: 78%;
+  left: 61%;
+}
+.pd{
+  font-weight: lighter;
+}
+.pd span{
+  font-weight: bold;
+  font-family: 'Lato';
 }

@@ -1,0 +1,184 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+  font-family: 'Lato';
+}
+.welcomePage{
+  background-color: #F5FAFC;
+}
+body{
+  background-color: #F5FAFC;
+}
+ul{
+  list-style-type: none;
+  float: right;
+}
+ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+}
+ul li a{
+  color: #A8B5BE;
+  text-decoration: none;
+}
+ul li a:hover{
+  color: #203F52;
+  font-weight: bold;
+}
+.starWarsMsg
+{
+  position: absolute;
+    float: left;
+    color: #A8B5BE;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    top: 3%;
+    left: 2%
+}
+.episodeInfo{
+  position: absolute;
+  top: 20%;
+  left: 2%;
+  width: 616px;
+}
+.episodeInfo h3{
+  position: relative;
+  left: 65%;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #9BB1B8;
+}
+hr{
+  color: #9EAEB7;
+  width: 60%;
+}
+.leftHr{
+  position: absolute;
+  margin-top: 32px;
+}
+.rightHr{
+  position: absolute;
+  left: 95%;
+  top: 10%;
+}
+.episodeInfo h1{
+  color: #4C8ADD;
+  margin-left: 255px;
+  width: 321px;
+  font-size: 36px;
+}
+.episodeInfo p{
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 75px;
+  color: #B1BFC4;
+}
+.fa-clock-o{
+  position: absolute;
+    margin-left: 0px;
+    margin-top: 75px;
+    color: #B1BFC4;
+}
+.forceInfo{
+  width: 266%;
+}
+.forceNav{
+  position: absolute;
+  left: 50px;
+  margin-top: 50px;
+}
+.robotImg{
+  margin-top: 200px;
+  margin-right: -195px;
+  float: right;
+}
+.episodeInfo .secondP{
+  position: absolute;
+  top: 116%;
+  color: #8B8E8F;
+}
+/*FirstPage*/
+.trailerWatch:hover{
+  background-color: blue;
+  color: #fff;
+}
+.CharactersPage{
+  position: absolute;
+  top: 800px;
+  height: 800px;
+}
+.CharactersPage header h1{
+  margin-left: 600px;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #829DA5;
+}
+.reyImg{
+  position: absolute;
+  left: 400px;
+  width: 450px;
+}
+.reyImg p{
+  position: absolute;
+  width: 200px;
+  left: -26px;
+}
+.reyImg img{
+  float: right;
+}
+.finnImg{
+  position: absolute;
+  left: 900px;
+  width: 450px;
+}
+.finnImg img{
+  float: left;
+}
+.finnImg p{
+  margin-left: 250px;
+}
+.reyName{
+  position: absolute;
+  top: 50%;
+  left: 62%;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #557885;
+  text-transform: uppercase;
+}
+.finnName{
+    position: absolute;
+    top: 50%;
+    left: 91%;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #557885;
+    text-transform: uppercase;
+}
+.bigInfo{
+  position: absolute;
+  top: 80%;
+  width: 150%;
+
+}
+.bigInfo p{
+  width: 50%;
+    margin-bottom: -143px;
+}
+.bigPTwo{
+  position: relative;
+  float: right;
+}
+button{
+  position: absolute;
+  top: 110%;
+  left: 75%;
+  height: 50px;
+  border: solid 5px #4988DC;
+  border-radius: 10px;
+  color: #4988DC;
+  background-color: #fff;
+  width: 150px;
+}

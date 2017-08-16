@@ -16,9 +16,55 @@
       <div class="payImg">
       <img src="images\PayPal.png" alt="/">
       </div>
-      <input type="checkbox" value="1" id="checkboxFourInput" name=""/>
+      <input type="checkbox" value="1" id="checkboxFourInput" name="box"/>
       <label for="checkboxFourInput"></label>
     </div>
+    <!--FirstBox-->
     </div>
+    <div class="secondBox">
+    <div class="card">
+      <p class="cardP">Debit/Credit Card</p>
+      <div class="cardImg">
+      <img src="images\MasterCard.png" alt="/">
+      </div>
+      <input type="checkbox" value="1" id="cardCheckBoxInput" name="box"/>
+      <label for="cardCheckBoxInput"></label>
+    </div>
+  </div>
+  <!--secondBox-->
+  <div class="NumberBox">
+    <div class="NumDigits">
+      <input type="digits" name="dig" value="4111 1111 1111 1111">
+        <label for="digits">Card Number</label>
+    </div>
+  </div>
+  <!--NumberBox-->
+  <div class="expiry">
+    <div class="date">
+      <input type="takeDate" name="date" value="MM/YY">
+      <label for="takeDate">Expiry</label>
+    </div>
+  </div>
+  <!--expiry-->
+  <div class="csv">
+    <div class="csvDig">
+      <input type="csv" name="csv" value="123">
+      <label for="csv">CSV</label>
+      <div class="exclamationMark">
+      <i class="fa fa-exclamation" aria-hidden="true"></i>
+    </div>
+    </div>
+  </div>
+  <!--CVS-->
+  <div class="Finish">
+    <div class="play">
+      <i class="fa fa-lock" aria-hidden="true"></i>
+      <button type="button" name="button">Finish and Pay</button>
+    </div>
+  </div>
+  <!--Pay-->
+  <div class="price">
+    <h1 class="pd">That's <span>&#36; 19.99</span></h1>
+  </div>
   </body>
 </html>
